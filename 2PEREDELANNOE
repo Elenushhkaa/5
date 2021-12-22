@@ -32,6 +32,9 @@ int main() {
         }
     }
     cout << n;
-
+    for (int i = 0; i < Elenushka; i++) {
+        delete mas[i];
+    }
+    delete mas;
 
 }
